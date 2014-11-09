@@ -1,0 +1,18 @@
+{
+  "commands": [
+    ["move_to", {"extend": false, "to": "bof"}],
+    ["move_to", {"extend": true, "to": "bof"}],
+
+    ["move_to", {"extend": false, "to": "eof"}],
+    ["move_to", {"extend": true, "to": "eof"}],
+
+    "goto_definition",
+    "goto_definition_enhanced",
+
+    "display_search_panel_enhanced",
+    "display_search_panel",
+
+    "promt_goto_line",
+    "find_all_under",
+  ]
+}

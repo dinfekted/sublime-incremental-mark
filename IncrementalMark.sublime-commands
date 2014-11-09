@@ -1,0 +1,19 @@
+[
+  {
+    "caption": "IncrementalMark: goto next",
+    "command": "goto_incremental_mark"
+  },
+
+  {
+    "caption": "IncrementalMark: goto previous",
+    "command": "goto_incremental_mark",
+    "args": {
+      "backward": false
+    }
+  },
+
+  {
+    "caption": "IncrementalMark: clean",
+    "command": "clean_incremental_marks"
+  },
+]

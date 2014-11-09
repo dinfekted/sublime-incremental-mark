@@ -1,0 +1,28 @@
+[
+  {
+    "keys": ["alt+r"],
+    "command": "goto_incremental_mark",
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
+  },
+
+  {
+    "keys": ["alt+shift+r"],
+    "command": "goto_incremental_mark",
+    "args": {
+      "backward": false
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
+  },
+
+  {
+    "keys": ["alt+ctrl+r"],
+    "command": "clean_incremental_marks",
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
+  },
+]
