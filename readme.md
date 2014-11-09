@@ -2,8 +2,6 @@
 
 Insert mark automatically on executing commands specified in settings.
 
-### Demo
-
 
 ### Installation
 
@@ -15,6 +13,7 @@ If you would like to install this package separately check "Installing packages
 separately" section of [sublime-enhanced](http://github.com/Shagabutdinov/sublime-enhanced)
 package.
 
+
 ### Usage
 
 Hit any commmand specified in IncrementalMark.sublime-settings, it'll add mark
@@ -23,9 +22,11 @@ shortcut for removing current marks setted. Does not set more that 5 marks.
 Reset mark when navigating by mark set. Could work badly with "undo" as "undo"
 removes marks from view.
 
+
 ### Settings
 
 Settings stored in IncrementalMark.sublime-settings.
+
 
 ##### "commands"
 
